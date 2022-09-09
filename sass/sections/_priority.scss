@@ -16,11 +16,11 @@
     display: flex;
 }
 
-.priority-item {
+.priority__item {
     width: 270px;
 }
 
-.priority-item:not(:last-child) {
+.priority__item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -33,10 +33,10 @@
     align-items: center;
 }
 
-.priority-icon {
+.priority__icon {
     fill: var(--title-text-color);
 }
-.title {
+.priority__title {
     margin-top: 30px;
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -46,7 +46,7 @@
     text-transform: uppercase;
 }
 
-.priority .text {
+.priority__text {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 14px;
