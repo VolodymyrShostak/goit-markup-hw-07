@@ -65,4 +65,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    &:hover .icon-close,
+&:focus .icon-close {
+    fill: var(--accent-color);
+}
 }
