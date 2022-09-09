@@ -49,3 +49,8 @@ color: var(--accent-color);
        color: var(--primaty-white-color); 
     }
 }
+.image-list,
+.clients-list {
+    margin-top: 50px;
+    display: flex;
+}

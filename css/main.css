@@ -195,6 +195,12 @@ summary {
   color: var(--primaty-white-color);
 }
 
+.image-list,
+.clients-list {
+  margin-top: 50px;
+  display: flex;
+}
+
 .button {
   padding: 10px 32px;
   font-family: inherit;
@@ -625,21 +631,15 @@ summary {
   letter-spacing: 0.03em;
 }
 
-.image-list,
-.clients-list {
-  margin-top: 50px;
-  display: flex;
-}
-
-.image-item {
+.image-list__item {
   position: relative;
 }
 
-.image-item:not(:last-child) {
+.image-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.description {
+.image-list__description {
   display: flex;
   position: absolute;
   width: 370px;
@@ -648,7 +648,7 @@ summary {
   bottom: 0;
 }
 
-.text-description {
+.image-list__text {
   padding: auto;
   margin: auto;
   font-weight: 700;
