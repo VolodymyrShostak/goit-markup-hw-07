@@ -740,18 +740,18 @@ summary {
   color: var(--primaty-white-color);
 }
 
-.client {
+.client-list__client {
   display: flex;
   width: 170px;
   height: 92px;
   border-radius: 4px;
 }
 
-.client:not(:last-child) {
+.client-list__client:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-site {
+.clients-list__site {
   display: flex;
   width: 170px;
   height: 92px;
@@ -765,8 +765,8 @@ summary {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-site:hover,
-.client-site:focus {
+.clients-list__site:hover,
+.clients-list__site:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
