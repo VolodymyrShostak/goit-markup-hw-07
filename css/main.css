@@ -670,24 +670,24 @@ summary {
   display: flex;
 }
 
-.personal-card {
+.personal__card {
   width: 270px;
   background-color: var(--primaty-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.personal-card:not(:last-child) {
+.personal__card:not(:last-child) {
   margin-right: 30px;
 }
 
-.personal-data {
+.personal__data {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.name {
+.personal__name {
   margin-bottom: 0;
   margin-top: 0;
   color: var(--title-text-color);
@@ -696,7 +696,7 @@ summary {
   line-height: 1.19;
 }
 
-.position {
+.personal__position {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 16px;
@@ -704,7 +704,7 @@ summary {
   letter-spacing: 0.03em;
 }
 
-.social-links {
+.personal__social-links {
   margin-top: 16px;
   margin-left: 32px;
   margin-right: 32px;
@@ -734,8 +734,8 @@ summary {
   fill: currentColor;
 }
 
-.link-svg:hover,
-.link-svg:focus {
+.personal__social-links:hover,
+.personal__social-links:focus {
   background-color: var(--accent-color);
   color: var(--primaty-white-color);
 }
