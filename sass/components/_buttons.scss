@@ -52,3 +52,17 @@
     background-color: var(--accent-color);
     color: var(--primaty-white-color);
 }
+.button-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 8px;
+    top: 8px;
+    border-radius: 50%;
+    background-color: var(--primaty-white-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
