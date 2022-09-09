@@ -1,19 +1,25 @@
-@import './base/fonts.scss'
+@import './base/fonts.scss';
+
 
 @import './sections/header.scss';
 @import './sections/hero.scss';
+@import './sections/modal.scss';
+@import './sections/priority.scss';
 @import './sections/about.scss';
-@import './sections/servisces.scss';
-@import './sections/benefits.scss';
+@import './sections/personal.scss';
+@import './sections/clients.scss';
+@import './sections/footer.scss';
 @import './sections/galery.scss';
 
-@import './sections/footer.scss';
-@import './sections/modal.scss';
+
+
 
 @import './components/contacts.scss';
 @import './components/buttons.scss';
 
 
-@import './utils/vars.scss';
+
+
+
 
 

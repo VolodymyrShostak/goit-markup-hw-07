@@ -1,0 +1,123 @@
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ececec;
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+.header-links {
+    margin: auto;
+}
+
+/* logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-one {
+    color: var(--accent-color);
+}
+
+.logo-two {
+    color: #000000;
+}
+
+.logo-three {
+    color: var(--primaty-white-color);
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav {
+    margin-left: 93px;
+    display: flex;
+}
+
+.site-nav .item-chapter:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .link-chapter,
+.contacts .link-contact {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    transition-property: color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts .item-contact:not(:last-child) {
+    margin-right: 30px;
+}
+
+.item-contact {
+    align-items: center;
+}
+
+.icon-contact {
+    margin-right: 10px;
+}
+.contacts .link-contact {
+    fill: #757575;
+    color: #757575;
+}
+
+.site-nav .link-chapter.current,
+.contacts .link-contact.current,
+.site-nav .link-chapter:hover,
+.site-nav .link-chapter:focus,
+.contacts .link-contact:hover,
+.contacts .link-contact:focus {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+}
+.link-chapter {
+    position: relative;
+}
+
+.item-chapter .current::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    border: 2px solid var(--accent-color);
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    margin-top: 25px;
+}
