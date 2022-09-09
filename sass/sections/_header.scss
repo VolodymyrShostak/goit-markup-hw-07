@@ -11,26 +11,6 @@
     align-items: center;
 }
 
-/* logo */
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: Bold;
-    font-size: 26px;
-    line-height: 1.2;
-}
-
-.logo-one {
-    color: var(--accent-color);
-}
-
-.logo-two {
-    color: #000000;
-}
-
-.logo-three {
-    color: var(--primaty-white-color);
-}
-
 .site-nav {
     margin-left: 93px;
     display: flex;
@@ -97,9 +77,10 @@
         fill: var(--accent-color);
         color: var(--accent-color);
     }
-}
-
-.icon-contact {
+    &__icon-contact {
     margin-right: 10px;
 }
+}
+
+
 
