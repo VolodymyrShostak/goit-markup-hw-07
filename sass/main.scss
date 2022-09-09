@@ -1,4 +1,4 @@
-@import './utils/vars.scss';
+@import './base/fonts.scss'
 
 @import './sections/header.scss';
 @import './sections/hero.scss';
@@ -6,7 +6,7 @@
 @import './sections/servisces.scss';
 @import './sections/benefits.scss';
 @import './sections/galery.scss';
-@import './sections/contscts.scss';
+
 @import './sections/footer.scss';
 @import './sections/modal.scss';
 
@@ -14,6 +14,6 @@
 @import './components/buttons.scss';
 
 
-
+@import './utils/vars.scss';
 
 
