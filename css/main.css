@@ -716,7 +716,7 @@ summary {
   color: var(--icon-color);
 }
 
-.link-svg {
+.personal__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -734,8 +734,8 @@ summary {
   fill: currentColor;
 }
 
-.personal__social-links:hover,
-.personal__social-links:focus {
+.personal__social-link:hover,
+.personal__social-link:focus {
   background-color: var(--accent-color);
   color: var(--primaty-white-color);
 }
