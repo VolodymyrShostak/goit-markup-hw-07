@@ -299,11 +299,15 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav__link-chapter__link-chapter--current, .site-nav__link-chapter__link-chapter:hover, .site-nav__link-chapter__link-chapter:fokus {
+
+.site-nav__item-chapter--current,
+.site-nav__link-chapter:hover,
+.site-nav__link-chapter:focus {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
-.site-nav__link-chapter__link-chapter::after {
+
+.site-nav__link-chapter--current::after {
   display: block;
   position: absolute;
   content: "";
@@ -645,7 +649,7 @@ summary {
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
-  bottom: 0;
+  bottom: 5px;
 }
 
 .image-list__text {
