@@ -4,18 +4,11 @@
     border-bottom: 1px solid #ececec;
 }
 
-
-
 .header-links {
+    margin: auto;
     display: flex;
     padding-left: 0;
     align-items: center;
-}
-
-
-
-.header-links {
-    margin: auto;
 }
 
 /* logo */
@@ -43,10 +36,12 @@
 .site-nav {
     margin-left: 93px;
     display: flex;
+    
 }
 
-.site-nav .item-chapter:not(:last-child) {
-    margin-right: 50px;
+.site-nav .item-chapter {
+   @extend %mr-50;
+
 }
 
 .site-nav .link-chapter,
@@ -66,9 +61,10 @@
 
 
 
-.contacts .item-contact:not(:last-child) {
-    margin-right: 30px;
+.contacts .item-contact {
+@extend %mr-30
 }
+
 
 .item-contact {
     align-items: center;
