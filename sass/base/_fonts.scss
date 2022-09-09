@@ -18,3 +18,25 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.decoration {
+    text-decoration: none;
+}
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contacts {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;}
