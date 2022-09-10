@@ -18,10 +18,9 @@
 
 .priority__item {
     width: 270px;
-}
-
-.priority__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .upper {
@@ -33,9 +32,6 @@
     align-items: center;
 }
 
-.priority__icon {
-    fill: var(--title-text-color);
-}
 .priority__title {
     margin-top: 30px;
     margin-bottom: 10px;

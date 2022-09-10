@@ -3,11 +3,11 @@
     width: 170px;
     height: 92px;
     border-radius: 4px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.client-list__client:not(:last-child) {
-    margin-right: 30px;
-}
 .clients-list__site {
     display: flex;
     width: 170px;
@@ -21,14 +21,12 @@
     transition-property: fill, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+    }
 }
-
-.clients-list__site:hover,
-.clients-list__site:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
 .link-list {
     gap: 10px;
 }

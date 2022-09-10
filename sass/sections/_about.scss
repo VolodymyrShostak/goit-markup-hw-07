@@ -1,10 +1,11 @@
 
 .image-list__item {
     position: relative;
-}
-.image-list__item:not(:last-child) {
+    &:not(:last-child) {
     margin-right: 30px;
 }
+}
+
 .image-list__description {
    
     display: flex;

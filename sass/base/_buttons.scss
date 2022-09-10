@@ -63,3 +63,22 @@ cursor: pointer;
     fill: var(--accent-color);
 }
 }
+.button-field__button {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--primaty-white-color);
+    padding: 10px 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        background-color: var(--accent-color);
+        cursor: pointer;
+    }
+}
